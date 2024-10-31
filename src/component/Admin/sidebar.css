@@ -1,0 +1,89 @@
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+  
+  .sidebar > a:first-child {
+    padding: 0;
+  }
+  .sidebar > a > img {
+    width: 100%;
+    transition: all 0.5s;
+  }
+  
+  .sidebar > a > img:hover {
+    filter: drop-shadow(0 0 10px tomato);
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+    font: 200 1rem "Roboto";
+    padding: 2rem;
+    transition: all 0.5s;
+  }
+  .sidebar a:hover {
+    color: tomato;
+    transform: scale(1.1);
+  }
+  
+  .sidebar a > P {
+    display: flex;
+    align-items: center;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+  .sidebar a > p > svg {
+    margin-right: 0.5rem;
+  }
+  
+  .MuiTypography-root {
+    background-color: #fff !important;
+  }
+  
+ 
+
+.dropdown-details{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+  font: 200 1rem "Roboto";
+  padding: 2rem;
+  cursor: pointer;
+ 
+  
+}
+.dropdown-summary{
+
+
+  transition: all 0.5s;
+    margin: -32px 0px 0px -7px;
+    padding: 5px 12px;
+    position: absolute;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+   
+}
+
+.dropdown-summary:hover{
+  color: tomato;
+    transform: scale(1.2);
+
+}
+details > summary {
+  list-style: none;
+}
+
+.dropdown-details  a > P{
+  align-items: center;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  margin: 10px 0px 0px 9px;
+  display: flex;
+}
+.dropdown-details a > p > svg {
+  margin-right: 0.5rem;
+}
