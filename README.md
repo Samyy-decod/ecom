@@ -27,9 +27,9 @@ I'm a full stack developer...<br/>
 I am **Sameer Khan**, a Software Engineer with a passion for developing robust applications. My goal is to create intuitive and efficient solutions for e-commerce challenges.
 
 ## Contact
+- <a href="https://codingyari.com">My Portfolio</a>
+- <a href="https://www.instagram.com/mr.samyy_99">Instagram</a>
 
-- [My Portfolio]([your_portfolio_link](https://codingyari.com/))
-- [Instagram]([your_instagram_link](https://www.instagram.com/mr.samyy_99))
 
 
 
